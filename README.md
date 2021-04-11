@@ -4,7 +4,7 @@
 ### Flexbox
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-### Pseudos 
+### Pseudo selectors (classes and elements)
 * https://www.w3schools.com/css/css_pseudo_classes.asp
 * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 * https://css-tricks.com/pseudo-class-selectors/
