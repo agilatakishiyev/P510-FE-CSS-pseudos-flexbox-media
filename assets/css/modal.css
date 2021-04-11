@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    user-select: none;
+}
+
+.modal-opener {
+    margin: 20px auto;
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #4cb6ac;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.modal-opener-wrapper {
+    text-align: center;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal-inner {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+    margin: 250px auto;
+    padding: 25px;
+    font-size: 30px;
+}
+
+
+.modal-inner a {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    top: 20px;
+    right: 20px;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.modal-inner a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.modal:target {
+    display: block;
+}
+
+.yt-icon {
+
+    color: black;
+}
+
+.notification-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.notification-wrapper::after {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    content: '9';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}

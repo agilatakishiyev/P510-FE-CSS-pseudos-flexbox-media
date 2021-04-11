@@ -1,0 +1,135 @@
+/* 
+    Pseudo elements 
+    before, after, first-line, first-letter, marker, selection
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* p::selection {
+    background-color: red;
+    color: white;
+} */
+
+
+/* first-letter does not have effect on inline elements(for example a, span) */
+/* p::first-letter {
+    font-size: 40px;
+} */
+
+/* first-line does not have effect on inline elements(for example a, span) */
+/* p::first-line {
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+} */
+
+/* p {
+    text-align: justify;
+}
+
+p::after {
+    content: "This is a dumb text";
+    background-color: yellow;
+    color: red;
+}
+
+p::before {
+    content: "This is a dumb text";
+    background-color: yellow;
+    color: red;
+}
+
+p span {
+    background-color: yellow;
+    color: red;
+} */
+
+/* ul li::marker{
+    color: red;
+} */
+
+/* ul li:first-child::marker {
+    content: '😝';
+}
+
+ul li:last-child::marker {
+    content: '😱';
+} */
+
+body {
+    counter-reset: some-counter;
+}
+
+/* ul li {
+    list-style: none;
+}
+
+
+ul li::before {
+    counter-increment: some-counter 3;
+    content: '# ' counter(some-counter) ' ';
+} */
+
+ul li:first-of-type {
+    color: red;
+}
+
+.some-example-div {
+    padding: 30px;
+    width: 50%;
+    margin: 50px auto;
+    background-color: pink;
+    text-align: left;
+    transition: width 0.3s;
+}
+
+.some-example-div:hover {
+    background-color: red;
+    color: white;
+    width: 60%;
+    text-align: center;
+}
+
+/* anchor element pseudo classes - (:link, :visited), (:hover, :active) */
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: green;
+}
+
+/* div p:first-of-type {
+    color: red
+} */
+
+input:focus {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+body {
+    height: 5000px;
+}
+
+
+#section-test {
+    height: 700px;
+    margin-top: 1000px;
+    background-color: lightblue;
+}
+
+#section-test:target {
+    background-color: red;
+}
