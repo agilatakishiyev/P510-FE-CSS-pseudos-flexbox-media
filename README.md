@@ -3,6 +3,7 @@
 ## Resources
 ### Flexbox
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://www.toptal.com/front-end/how-to-build-css-only-smart-layouts-with-flexbox
 
 ### Pseudo selectors (classes and elements)
 * https://www.w3schools.com/css/css_pseudo_classes.asp
