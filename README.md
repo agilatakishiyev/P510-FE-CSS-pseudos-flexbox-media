@@ -17,3 +17,6 @@
 * https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 * https://developer.mozilla.org/en-US/docs/Web/CSS/@media
 * https://www.w3docs.com/learn-css/media.html
+
+# Homework - create the layout below with the help of only flexbox
+![1_J1xJVNgjX5gxZ0FSJWgDKw](https://user-images.githubusercontent.com/57169563/114371060-306dd680-9b91-11eb-822f-4f3f416cc620.jpeg)
